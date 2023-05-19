@@ -7,7 +7,7 @@ spec:
   interval: 1m
   approvePlan: auto
   destroyResourcesOnDeletion: true
-  path: ./tf-src
+  path: ./cluster/my-cluster/tf-src
   sourceRef:
     kind: GitRepository
     name: flux-system
