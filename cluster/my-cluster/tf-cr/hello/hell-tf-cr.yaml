@@ -16,4 +16,4 @@ spec:
   - name: subject
     value: "Terraform CR"
   writeOutputsToSecret:
-    name: tf-helloworld-output
+    name: helloworld
