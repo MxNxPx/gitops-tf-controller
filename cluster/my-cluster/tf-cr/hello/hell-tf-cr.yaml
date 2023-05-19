@@ -6,6 +6,7 @@ metadata:
 spec:
   interval: 1m
   approvePlan: auto
+  destroyResourcesOnDeletion: true
   path: ./cluster/my-cluster/tf-src
   sourceRef:
     kind: GitRepository
