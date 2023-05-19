@@ -11,4 +11,10 @@ spec:
     kind: GitRepository
     name: flux-system
     namespace: flux-system
-
+  vars:
+  - name: subject
+    value: "Terraform Cloud"
+  writeOutputsToSecret:
+    name: tf-helloworld-output
+    outputs:
+    - hello_world
